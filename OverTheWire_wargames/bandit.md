@@ -103,13 +103,43 @@ level 12 - decoding rot 13 encoded data with tr command
 
 ---
 
-*** level 13 - recovering a hexdump of a file thats been compressed multiple times
+level 13 - recovering a hexdump of a file thats been compressed multiple times
 - `mkdir /tmp/files/ && mv data.txt /tmp/files/ && cd /tmp/files/`
-- revert hexdump of file back to original data > `xxd -r data.txt > test`
+- revert hexdump of file back to original binary data > `xxd -r data.txt > test`
 - check what this is > `file test`
-- revert to gzip file and decompress this > `xxd -r data.txt > test.gz && gunzip test.gz`
+- add .gz to filename so can decompress it > `mv test test.gz && gunzip test.gz`
 - check what this is > `file test`
-- revert to gzip file and decompress to .bz2 extension and decmpress again  `xxd -r data.txt > test.gz && gunzip test.gz 
+- add .bz2 to filename so can decompress it > `mv test test.bz2 && bunzip2 test.bz2`
+- check what this is > `file test`
+- add .gz to filename so can decompress it > `mv test test.gz && gunzip test.gz`
+- check what this is > `file test`
+- extract archive > `tar -xf test && ls`
+- check what this is > `file data5.bin`
+- extract archive > `tar -xf data5.bin && ls`
+- check what this is > `file data6.bin`
+- add .bz2 to filename so can decompress it > `mv test data6.bin.bz2 && bunzip2 data6.bin.bz2`
+- check what this is > `file data6.bin`
+- extract archive > `tar -xf data6.bin && ls`
+- check what this is > `file data8.bin`
+- add .gz to filename so can decompress it > `mv data8.bin data8.bin.gz && gunzip data8.bin.gz'
+- check what this is > `file data8.bin`
+- password = 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+- `ssh -p 2220 bandit13@bandit.labs.overthewire.org` + password
 
+---
+
+level 14 - logging into ssh using a private ssh key
+- copy private ssh key across to local machine to use `scp -P 22200 bandit13@bandit.labs.overthewire.org:/home/bandit13/sshkey.private key` (logged in as bandit13)
+- change permissions on key `chmod 600 key`
+- use key to ssh into machine `ssh -p 2220 -i key bandit14@bandit.labs.overthewire.org`
+- find password file `cd /etc/bandit_pass`
+- password = 4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+- `ssh -p 2220 bandit14@bandit.labs.overthewire.org` + password
+
+---
+
+*level 15
+- ...
+- ....
 
 
