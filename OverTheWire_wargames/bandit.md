@@ -89,5 +89,27 @@ level 10 - searching a binary file for a text that is preceded by several "="
 
 ---
 
-level 11 - 
+level 11 - decoded base 64 encoded data
+- `base64 -d data.txt`
+- password = IFukwKGsFW8MOq3IRFqrxE1hxTNEbUPR
+- `ssh -p 2220 bandit11@bandit.labs.overthewire.org` + password
+
+---
+
+level 12 - decoding rot 13 encoded data with tr command
+- `cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'`
+- password = 5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+- `ssh -p 2220 bandit12@bandit.labs.overthewire.org` + password
+
+---
+
+*** level 13 - recovering a hexdump of a file thats been compressed multiple times
+- `mkdir /tmp/files/ && mv data.txt /tmp/files/ && cd /tmp/files/`
+- revert hexdump of file back to original data > `xxd -r data.txt > test`
+- check what this is > `file test`
+- revert to gzip file and decompress this > `xxd -r data.txt > test.gz && gunzip test.gz`
+- check what this is > `file test`
+- revert to gzip file and decompress to .bz2 extension and decmpress again  `xxd -r data.txt > test.gz && gunzip test.gz 
+
+
 
