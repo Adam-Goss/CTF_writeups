@@ -9,5 +9,5 @@
 --- 
 
 <br> 
-
-avaliable from https://tryhackme.com/dashboard
+<br>
+| [TryHackMe](https://tryhackme.com/dashboard) |
