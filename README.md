@@ -28,4 +28,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 - TryHackMe_CTFs
   - NinjaSkills
   - PickleRick
-  - ... 
+  - blue
+  - ice
+  - blaster
+  - ...
