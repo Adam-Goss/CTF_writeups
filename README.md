@@ -21,6 +21,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 ### Index:
 
 - HackTheBox_CTFs:
+  - archetype
   - ...
 - OverTheWire_wargames:
   - bandit
