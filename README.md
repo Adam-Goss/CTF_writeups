@@ -21,15 +21,16 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 ### Index:
 
 - HackTheBox_CTFs:
-  - archetype
+  - *archetype
   - ...
 - OverTheWire_wargames:
-  - bandit
+  - *bandit
   - ...
 - TryHackMe_CTFs
   - NinjaSkills
   - PickleRick
   - blue
-  - ice
-  - blaster
+  - BasicPentesting
+  - *ice
+  - *blaster
   - ...
