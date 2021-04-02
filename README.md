@@ -31,8 +31,8 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
   - PickleRick
   - blue
   - BasicPentesting
-  - *kenobi
-  - *SteelMountain
+  - kenobi
+  - SteelMountain
   - *ice
   - *blaster
   - ...
