@@ -31,5 +31,5 @@
 <br>
 
 5) get admin flag:
-- 
+- escalate privileges
 
