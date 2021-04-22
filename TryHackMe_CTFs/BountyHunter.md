@@ -15,7 +15,7 @@ Process:
   - found: locks.txt 
   - can try to brute force service with locks.txt = **ssh**
 - 4) try to brute force ssh
-  - `hydra -u lin -P lock.txt <ip> ssh`
+  - `hydra -l lin -P locks.txt <ip> ssh`
   - found password = **RedDr4gonSynd1cat3**
 - 5) login to ssh:
   - look for user.txt
