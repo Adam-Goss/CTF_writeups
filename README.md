@@ -34,6 +34,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
   - kenobi
   - SteelMountain
   - SimpleCTF
+  - RootMe
   - *ice
   - *blaster
   - ...
