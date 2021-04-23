@@ -21,7 +21,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 ### Index:
 
 - HackTheBox_CTFs:
-  - *archetype
+  - archetype
   - ...
 - OverTheWire_wargames:
   - *bandit
@@ -37,7 +37,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
   - RootMe
   - Bounty Hunter
   - BrooklynNineNine
-  - AgentSudo
-  - *ice
+  - ice
+  - *AgentSudo
   - *blaster
   - ...
