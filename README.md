@@ -38,6 +38,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
   - Bounty Hunter
   - BrooklynNineNine
   - ice
+  - LazyAdmin
   - *AgentSudo
   - *blaster
   - ...
