@@ -20,7 +20,7 @@ Process:
   - password = "james13"
 - 4) ssh into system
   - `ssh james@<ip>` -> [james13]`
-  - `cat user.txt` = **...**
+  - `cat user.txt` = **thm{65c1aaf000506e56996822c6281e6bf7}**
 - 5) escalate privileges
   - `cat todo.txt` -- stored password in overpass password manager:
     - `overpass` -> [4] to retrieve all passwords 
@@ -40,4 +40,4 @@ Process:
   - setup second netcat listener to catch reverse shell:
     - `nc -lvnp 1234`
 - 6) once caught you'll have a root reverse shell
-  - `cat root.txt` = **...**
+  - `cat root.txt` = **thm{7f336f8c359dbac18d54fdd64ea753bb}**
