@@ -40,6 +40,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
   - ice
   - LazyAdmin
   - overpass
+  - alfred
   - *AgentSudo
   - *blaster
   - ...
