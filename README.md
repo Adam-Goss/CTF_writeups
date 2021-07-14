@@ -21,26 +21,28 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 ### Index:
 
 - HackTheBox_CTFs:
-  - archetype
+  - [[archetype]]
   - ...
 - OverTheWire_wargames:
-  - *bandit
+  - *[[bandit]]
   - ...
-- TryHackMe_CTFs
-  - NinjaSkills
-  - PickleRick
-  - blue
-  - BasicPentesting
-  - kenobi
-  - SteelMountain
-  - SimpleCTF
-  - RootMe
-  - Bounty Hunter
-  - BrooklynNineNine
-  - ice
-  - LazyAdmin
-  - overpass
-  - alfred
-  - *AgentSudo
-  - *blaster
-  - ...
+- TryHackMe_CTFs:
+	- [[NinjaSkills]]
+	- [[PickleRick]]
+	- [[blue]]
+	- [[BasicPentesting]]
+	- [[kenobi]]
+	- [[SteelMountain]]
+	- [[SimpleCTF]]
+	- [[RootMe]]
+	- [[BountyHunter]]
+	- [[BrooklynNineNine]]
+	- [[ice]]
+	- [[LazyAdmin]]
+	- [[overpass]]
+	- [[alfred]]
+	- [[HackPark]]
+	- *[[GameZone]]
+	- *[[AgentSudo]]
+	- *[[blaster]]
+	- ...

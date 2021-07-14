@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "TryHackMe_CTFs/GameZone.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "TryHackMe_CTFs/GameZone.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,7 +88,10 @@
   },
   "active": "69da8b3d23e14b0d",
   "lastOpenFiles": [
+    "TryHackMe_CTFs/GameZone.md",
     "README.md",
+    "TryHackMe_CTFs/alfred 1.md",
+    "TryHackMe_CTFs/HackPark.md",
     "TryHackMe_CTFs/alfred.md",
     "TryHackMe_CTFs/BasicPentesting.md",
     "TryHackMe_CTFs/Untitled.md",
