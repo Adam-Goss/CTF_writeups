@@ -42,7 +42,8 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 	- [[overpass]]
 	- [[alfred]]
 	- [[HackPark]]
-	- *[[GameZone]]
+	- [[GameZone]]
+	- *[[skynet]]
 	- *[[AgentSudo]]
 	- *[[blaster]]
 	- ...
