@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TryHackMe_CTFs/overpass2.md",
+            "file": "TryHackMe_CTFs/internal.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f2427f1d75533ee5",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe_CTFs/overpass2.md",
+                "file": "TryHackMe_CTFs/internal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "69da8b3d23e14b0d",
   "lastOpenFiles": [
-    "TryHackMe_CTFs/overpass2.md",
+    "TryHackMe_CTFs/internal.md",
     "README.md",
+    "TryHackMe_CTFs/relevant 1.md",
+    "TryHackMe_CTFs/relevant.md",
+    "TryHackMe_CTFs/alfred 1.md",
+    "TryHackMe_CTFs/overpass2.md",
     "TryHackMe_CTFs/OverPass2.md",
     "TryHackMe_CTFs/overpass.md",
-    "TryHackMe_CTFs/alfred 1.md",
     "TryHackMe_CTFs/alfred.md",
-    "TryHackMe_CTFs/DailyBuge.md",
-    "TryHackMe_CTFs/skynet.md",
-    "TryHackMe_CTFs/GameZone.md",
-    "TryHackMe_CTFs/HackPark.md"
+    "TryHackMe_CTFs/DailyBuge.md"
   ]
 }
