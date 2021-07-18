@@ -52,7 +52,7 @@
   - need to escalate prvileges:
     - check frequently accessed files or executed commands
     - `type C:\Users\sql_svc\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt`
-    - in PowerShell history file found "backups" drive has been mapped using the local admin credentials "admisistrator:MEGACORP_4adm1n!!"
+    - in PowerShell history file found "backups" drive has been mapped using the local admin credentials "admisistrator:MEGACORP_4dm1n!!"
   - use Impacket's "psexec.py" to gain a privileged shell
     - `psexec.py administrator@10.10.10.27` -> [MEGACORP_4adm1n!!]
   - read admin flag:

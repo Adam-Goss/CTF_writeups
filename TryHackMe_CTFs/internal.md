@@ -36,5 +36,6 @@
 		- find user flag: `cat /home/aubreanna/user.txt`
 		- user flag = **THM{int3rna1_fl4g_1}**
 6. esclate to root:
-	-  .... 
+	-  found jenkins service running on internal host at 172.17.0.2:8080
+	-  ... 
 

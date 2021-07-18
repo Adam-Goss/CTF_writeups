@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "69da8b3d23e14b0d",
+        "id": "04b04c3b3c34b2f9",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TryHackMe_CTFs/internal.md",
+            "file": "HackTheBox_CTFs/oopsie.md",
             "mode": "source"
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe_CTFs/internal.md",
+                "file": "HackTheBox_CTFs/oopsie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "69da8b3d23e14b0d",
+  "active": "04b04c3b3c34b2f9",
   "lastOpenFiles": [
-    "TryHackMe_CTFs/internal.md",
+    "HackTheBox_CTFs/oopsie.md",
+    "HackTheBox_CTFs/archetype.md",
+    "HackTheBox_CTFs/archetype 1.md",
     "README.md",
+    "TryHackMe_CTFs/internal.md",
     "TryHackMe_CTFs/relevant 1.md",
     "TryHackMe_CTFs/relevant.md",
     "TryHackMe_CTFs/alfred 1.md",
     "TryHackMe_CTFs/overpass2.md",
-    "TryHackMe_CTFs/OverPass2.md",
-    "TryHackMe_CTFs/overpass.md",
-    "TryHackMe_CTFs/alfred.md",
-    "TryHackMe_CTFs/DailyBuge.md"
+    "TryHackMe_CTFs/OverPass2.md"
   ]
 }
