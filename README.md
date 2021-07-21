@@ -23,6 +23,7 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 - HackTheBox_CTFs:
   - [[archetype]]
   - [[oopsie]]
+  - ...
 - OverTheWire_wargames:
   - *[[bandit]]
   - ...
@@ -48,6 +49,8 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 	- [[overpass2]]
 	- [[relevant]]
 	- [[internal]]
+	- [[MrRobotCTF]]
+	- *[[retro]]
 	- *[[AgentSudo]]
 	- *[[blaster]]
 	- ...
