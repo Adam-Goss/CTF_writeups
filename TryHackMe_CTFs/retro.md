@@ -32,4 +32,14 @@
 	- login with RDP in remmina using wade credentials -- success
 	- found user.txt flag
 		- user flag = **3b99fbdc6d430bfb51c72c651a261927**
-		- 
+4. privilege escalation:
+	- found the user was trying to execute a "hhupd.exe" (in Recylce Bin)
+	- googling this tound an exploit "CVE-2019-1388"
+	- download exploit to attack machine from [here](https://packetstormsecurity.com/files/14437/hhupd.exe.html) and then move to target
+	- try to execute -- failed 
+	- find OS and build and google for exploits
+		- found CVE-2017-0213
+		- download from [here](https://github.com/WindowsExploits/Exploits/tree/master/CVE-2017-0213) to attack machine and then download to target machine via python http server 
+		- execute -- worked 
+		- get root flag: `type /users/administrator/desktop/root.txt.txt`
+		- flag = **7958b569565d7bd88d10c6f22d1c406c**
