@@ -50,8 +50,10 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 	- [[relevant]]
 	- [[internal]]
 	- [[MrRobotCTF]]
+	- [[retro]]
 	- [[brainstorm]]
-	- *[[retro]]
+	- [[gatekeeper]]
+	- [[brainpan1]]
 	- *[[AgentSudo]]
 	- *[[blaster]]
 	- ...

@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TryHackMe_CTFs/brainstorm.md",
+            "file": "README.md",
             "mode": "source"
           }
         }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f2427f1d75533ee5",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TryHackMe_CTFs/brainstorm.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "04b04c3b3c34b2f9",
   "lastOpenFiles": [
-    "TryHackMe_CTFs/brainstorm.md",
     "README.md",
+    "TryHackMe_CTFs/brainpan1.md",
+    "TryHackMe_CTFs/gatekeeper 1.md",
+    "TryHackMe_CTFs/gatekeeper.md",
+    "TryHackMe_CTFs/brainstorm 1.md",
+    "TryHackMe_CTFs/brainstorm.md",
     "TryHackMe_CTFs/alfred 1.md",
     "TryHackMe_CTFs/retro.md",
     "TryHackMe_CTFs/MrRobotCTF.md",
-    "TryHackMe_CTFs/internal.md",
-    "TryHackMe_CTFs/alfred.md",
-    "HackTheBox_CTFs/oopsie.md",
-    "HackTheBox_CTFs/archetype.md",
-    "HackTheBox_CTFs/archetype 1.md"
+    "TryHackMe_CTFs/internal.md"
   ]
 }
