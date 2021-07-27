@@ -23,7 +23,8 @@ These are various writeups of the Capture the Flag (CTF) games I have completed.
 - HackTheBox_CTFs:
   - [[archetype]]
   - [[oopsie]]
-  - ...
+  - [[shocker]]
+  - *[[armageddon]]
 - OverTheWire_wargames:
   - *[[bandit]]
   - ...

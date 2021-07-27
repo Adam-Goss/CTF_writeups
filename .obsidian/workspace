@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "README.md",
+            "file": "HackTheBox_CTFs/armageddon.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f2427f1d75533ee5",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "HackTheBox_CTFs/armageddon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "04b04c3b3c34b2f9",
   "lastOpenFiles": [
+    "HackTheBox_CTFs/armageddon.md",
     "README.md",
+    "HackTheBox_CTFs/shocker 1.md",
+    "HackTheBox_CTFs/shocker.md",
+    "HackTheBox_CTFs/oopsie.md",
+    "HackTheBox_CTFs/oopsie 1.md",
     "TryHackMe_CTFs/brainpan1.md",
     "TryHackMe_CTFs/gatekeeper 1.md",
     "TryHackMe_CTFs/gatekeeper.md",
-    "TryHackMe_CTFs/brainstorm 1.md",
-    "TryHackMe_CTFs/brainstorm.md",
-    "TryHackMe_CTFs/alfred 1.md",
-    "TryHackMe_CTFs/retro.md",
-    "TryHackMe_CTFs/MrRobotCTF.md",
-    "TryHackMe_CTFs/internal.md"
+    "TryHackMe_CTFs/brainstorm 1.md"
   ]
 }

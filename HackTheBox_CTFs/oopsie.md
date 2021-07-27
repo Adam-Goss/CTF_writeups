@@ -1,6 +1,6 @@
 # Oopsie 
 
-> Ver Easy | Linux 
+> Very Easy | Linux 
 
 <br>
 
